@@ -1,0 +1,14 @@
+# Azure Static Web Apps deployment configuration
+build:
+  # App source code path relative to root of repository
+  app_location: "/"
+  # Built app content directory relative to app_location
+  output_location: "dist"
+  # App build command
+  app_build_command: "npm run build"
+  # API source code path relative to repository root (optional)
+  api_location: ""
+  # Skip app build
+  skip_app_build: false
+  # Skip API build
+  skip_api_build: true
